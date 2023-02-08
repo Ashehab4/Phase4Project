@@ -19,19 +19,19 @@ public class base {
 	  
 	 
 	
-	public AppiumDriverLocalService startServer()
-	{
-		//
-	boolean flag=	checkIfServerIsRunnning(4723);
-	if(!flag)
-	{
-		
-		service=AppiumDriverLocalService.buildDefaultService();
-		service.start();
-	}
-		return service;
-		
-	}
+//	public AppiumDriverLocalService startServer()
+//	{
+//		//
+//	boolean flag=	checkIfServerIsRunnning(4723);
+//	if(!flag)
+//	{
+//		
+//		service=AppiumDriverLocalService.buildDefaultService();
+//		service.start();
+//	}
+//		return service;
+//		
+//	}
 	
 public static boolean checkIfServerIsRunnning(int port) {
 		

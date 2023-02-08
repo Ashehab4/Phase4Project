@@ -10,7 +10,7 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
 public class PageLocators {
-	public PageLocators(AndroidDriver<AndroidElement> driver)
+	public PageLocators(AndroidDriver<MobileElement> driver)
 	{
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
