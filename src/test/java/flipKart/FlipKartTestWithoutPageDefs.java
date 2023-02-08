@@ -31,9 +31,7 @@ public class FlipKartTestWithoutPageDefs {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		Thread.sleep(2000);
 	}
-
 	@Test
-
 	public void FlipKartOrderTest() throws InterruptedException {
 
 		// Find and Press on Search for Item Box
