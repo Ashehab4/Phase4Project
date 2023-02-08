@@ -1,2 +1,2 @@
-cd C:\Users\Owner\AppData\Local\Android\Sdk\emulator
+cd %ANDROID_HOME%
 emulator -avd emulator-5554

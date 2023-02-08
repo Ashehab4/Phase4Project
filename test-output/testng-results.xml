@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="82792" started-at="2023-02-08T19:49:01 AST" finished-at="2023-02-08T19:50:24 AST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="82792" started-at="2023-02-08T19:49:01 AST" finished-at="2023-02-08T19:50:24 AST">
+      <class name="flipKart.FlipKartTestWithoutPageDefs">
+        <test-method status="PASS" signature="StartEmulators()[pri:0, instance:flipKart.FlipKartTestWithoutPageDefs@44c8afef]" name="StartEmulators" is-config="true" duration-ms="11218" started-at="2023-02-08T19:49:01 AST" finished-at="2023-02-08T19:49:12 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartEmulators -->
+        <test-method status="PASS" signature="FlipKartOrderTest()[pri:0, instance:flipKart.FlipKartTestWithoutPageDefs@44c8afef]" name="FlipKartOrderTest" duration-ms="71077" started-at="2023-02-08T19:49:12 AST" finished-at="2023-02-08T19:50:23 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlipKartOrderTest -->
+        <test-method status="PASS" signature="CloseApplication()[pri:0, instance:flipKart.FlipKartTestWithoutPageDefs@44c8afef]" name="CloseApplication" is-config="true" duration-ms="444" started-at="2023-02-08T19:50:23 AST" finished-at="2023-02-08T19:50:24 AST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+      </class> <!-- flipKart.FlipKartTestWithoutPageDefs -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
